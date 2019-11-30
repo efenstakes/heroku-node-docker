@@ -15,6 +15,12 @@ app.get('/services', (req, res)=> {
     res.json({ 'page': [ 'services', 'help' ] })
 })
 
+app.get('/tac', (req, res)=> {
+    res.json({ 'page': [ 'conditions', 'terms' ] })
+})
+
+
+
 
 app.listen(PORT, ()=> {
     console.log(`listening on port ${PORT}`)

@@ -11,4 +11,6 @@ COPY . .
 
 # EXPOSE 14441
 
-CMD [ "npm", "start" ]
+# CMD [ "npm", "start" ]
+
+CMD [ "node", "index.js" ]
